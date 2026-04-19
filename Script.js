@@ -21,7 +21,7 @@ switch(operator){
 
 
 
-let marks = 22;
+let marks = 0;
 let bonusMarks = 0;
 let grade;
 let result;
@@ -69,7 +69,7 @@ else if(marks>=50 && marks<=69){
     }
     
 
-   else if(marks<=49 || marks===0){
+   else if(marks<=49){
      result = "Failed";
      grade = "F";
     console.log("Marks: " + marks);
