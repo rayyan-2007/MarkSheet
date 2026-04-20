@@ -50,32 +50,40 @@ else if(marks>=85 && marks<=100){
 else if(marks>=70 && marks<=89){
     result = "passed";
     grade="B";
-
+    switch (grade) {
+        case "B": 
     console.log("Marks :" + marks);
     console.log("Grade: " + grade);
     console.log("Result: " + result);
     console.log("Remarks: Good");
     }
+}
 
 
 
 else if(marks>=50 && marks<=69){
     result = "passed"
     grade="C";
+    switch(grade){
+    case "C":
     console.log("Marks: " + marks);
     console.log("Grade: " + grade);
     console.log("Result: " + result);
     console.log("Remarks: Average");
     }
+}
     
 
    else if(marks<=49){
      result = "Failed";
      grade = "F";
+     switch(grade){
+        case "F":
     console.log("Marks: " + marks);
     console.log("Grade: " + grade);
     console.log("Result: " + result);
     console.log("Remarks: Poor");
+     }
 }
 
 
