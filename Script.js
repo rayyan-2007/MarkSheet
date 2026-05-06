@@ -60,8 +60,7 @@ if (marks <= 0) {
   console.log("result:", result);
   console.log("bonusMarks:", bonusMarks);
   console.log("totalmarks:", totalmarks);
-} 
-else if (marks >= 70 && marks <= 89) {
+} else if (marks >= 70 && marks <= 89) {
   grade = "B";
   bonusMarks += 2;
   result = "passed";
@@ -71,8 +70,7 @@ else if (marks >= 70 && marks <= 89) {
   console.log("result:", result);
   console.log("bonusMarks:", bonusMarks);
   console.log("totalmarks:", totalmarks);
-} 
-else if (marks >= 50 && marks <= 69) {
+} else if (marks >= 50 && marks <= 69) {
   grade = "C";
   bonusMarks += 1;
   result = "passed";
@@ -82,8 +80,7 @@ else if (marks >= 50 && marks <= 69) {
   console.log("result:", result);
   console.log("bonusMarks:", bonusMarks);
   console.log("totalmarks:", totalmarks);
-} 
-else if (marks >= 50 ? (result = "Passed") : (result = "Failed")) {
+} else if (marks >= 50 ? (result = "Passed") : (result = "Failed")) {
   grade = "F";
   totalmarks = marks;
   console.log("marks:", marks);
